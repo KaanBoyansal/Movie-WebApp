@@ -1,0 +1,25 @@
+.menu-items {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.menu-item{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.menu-item__item{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.menu-item__item:hover{
+	color: #2E4C6D;
+}
+
+.menu-item__item:active{
+	color: #fff;
+}
+

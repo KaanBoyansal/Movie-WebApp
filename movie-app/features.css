@@ -1,0 +1,64 @@
+.row{
+	font-family: "Roboto", sans-serif;
+}
+
+.row h2{
+	font-size: 36px;
+}
+.col h3{
+	font-size: 26px;
+}
+.col{
+	display: inline-block;
+	margin: 10px;
+	padding: 6px;
+	width: 30%;
+	font-family: "Roboto", sans-serif;
+}
+
+.col i{
+	font-size: 35px;
+	color: #FC997C;
+}
+
+.col2{
+	width: calc(50% - 2px);
+	height: 350px;
+	vertical-align: top;
+	display: inline-block;
+}
+.left{
+	background: url(features.jpeg);
+	background-size: cover;
+	background-position: top center;
+}
+.rigth{
+	background-color: #d1d1d1d2;
+	padding: 50px;
+	font-family: "Roboto", sans-serif;
+}
+.rigth h3{
+	font-weight: bold;
+	font-size: 29px;
+}
+.rigth p{
+	font-weight: 500;
+}
+.rigth a{
+	background-color: #FC997C;
+	border-radius: 5px;
+	padding: 8px 16px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	margin-top: 25px;
+}
+.rigth a:hover{
+	color: #2E4C6D;
+	border: 2px solid #2E4C6D;
+}
+.rigth a:active{
+	color: #fff;
+	border: 2px solid #fff;
+}
