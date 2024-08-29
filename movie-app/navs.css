@@ -12,10 +12,12 @@
 	border-color: #fff;
 	padding: 4px 16px;
 }
+
 #sign-in:hover{
 	background-color: #fff;
 	border-color: #2E4C6D;
 }
+
 #sign-in:active{
 	background-color: #2E4C6D;
 	border-color: #fff;

@@ -4,9 +4,8 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 500px;
+	height: 80vh;
 	width: 100%;
-	padding: 10px;
 }
 
 .showcase-class{
@@ -17,9 +16,9 @@
 	position: absolute;
 	color: #fff;
 	padding: 25px;
-	background-image: linear-gradient(to bottom right, rgba(0, 82, 204, 0.2),  rgba(0, 82, 204, 0.2));
+	background: rgba(0, 82, 204, 0.3);
 	font-size: 32px;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0;
