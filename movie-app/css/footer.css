@@ -1,0 +1,69 @@
+footer{
+    background-color: #2e4c6d;
+    height: 20vh;
+    width: 100%;
+    list-style: none;
+}
+
+footer ul{
+    margin: 0;
+}
+
+.footer-left a{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: large;
+    padding: 5px;
+}
+
+.footer-left{
+    margin-top: 10vh;
+}
+
+.footer-rigth a{
+    float: right !important;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-left li{
+    list-style: none;
+    float: left;
+}
+
+.footer-rigth{
+    margin-top: 10vh;
+}
+
+.footer-rigth a{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 8px;
+}
+
+.footer-rigth li{
+    list-style: none;
+    float: right;
+}
+
+.fa-brands{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background-color: #125688;
+    color: #fff;
+}
+
+.fa-github{
+    background-color: #2B3137;
+    color: #fff;
+}
+
+.fa-linkedin{
+    background-color: #0a66c2;
+    color: #fff;
+}

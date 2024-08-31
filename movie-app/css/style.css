@@ -1,0 +1,32 @@
+@import url("footer.css");
+@import url("movie-cards.css");
+@import url("scroll.css");
+@import url("menu.css");
+@import url("header.css");
+@import url("navs.css");
+@import url("showcase.css");
+@import url("features.css");
+@import url("before-f.css");
+@import url("plans.css");
+@import url("buttons.css");
+
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+}
+
+#how-it-works { 
+    text-align: center;
+}
+
+.section-title{
+    text-align: center!important;
+    margin: 40px;
+    color: #3e4555;
+    font-size: 30px!important;
+}

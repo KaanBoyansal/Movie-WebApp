@@ -1,0 +1,26 @@
+#showcase { 
+	background: linear-gradient(to bottom right,rgba(220, 229, 239, 0.3), rgba(150, 177, 207, 0.3)), url(img/bg.jpeg); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+}
+
+.showcase-class{
+	position: relative;
+}
+
+.showcase__content{
+	position: absolute;
+	color: #fff;
+	padding: 25px;
+	background: rgba(0, 82, 204, 0.3);
+	font-size: 32px;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	border-radius: 9px;
+}

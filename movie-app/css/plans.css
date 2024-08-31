@@ -1,0 +1,60 @@
+#plans h3{
+	text-align: center;
+	font-size: 32px;
+}
+.plan-list{
+	list-style: none;
+	float: left;
+	background-color: #fff;
+	text-align: center;
+	padding: 8px;
+	width: 33.3%;
+	font-size: 22px;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.inner-plan{
+	background-color: #d1d1d1d2;
+	padding: 10px;
+	border-radius: 6px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#plan-badge
+{
+	background-color: #fff;
+	border-radius: 3px;
+	color: #FC997C;
+	padding: 8px;
+}
+.recommended-plan
+{
+	color: #fff;
+	background-color: #396eb0;	
+}
+.plan-features
+{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.plan-features li{
+	margin: 6px 0px;
+	font-size: 18px;
+}
+.plan--featured
+{
+	position: relative;
+	top: -20px;
+}
