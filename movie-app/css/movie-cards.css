@@ -1,11 +1,16 @@
 .card p{
+    font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 5vh;
 }
 
+.card h3{
+    font-size: 1.8rem;
+}
+
 .card img{
     width: 100%;
-    max-height: 380px;
+    max-height: 38rem;
 }
 
 .card{
@@ -20,13 +25,14 @@
 
 .card:hover{
    /* top: -20px; hover efekti için kullanılabilecek diğer bir yöntem */
-   transform: translateY(-20px);
+   transform: translateY(-2rem);
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-body{
-    padding: 30px;
+    padding: 3rem;
 }
 
 .card-container{
-    padding: 10px;
+    padding: 1rem;
 }

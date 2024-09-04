@@ -1,14 +1,14 @@
 .row-bcg 
 {
 	background-color: #FC997C;
-	height: 15vh;
+	height: 12rem;
 	margin-bottom: 0vh !important;
 }
 
 .numbers 
 {
 	font-size: larger;
-	padding-top: 3.5vh;
+	padding-top: 3.2rem;
 	text-align: center;
 	color: white;
 	font-family: sans-serif;

@@ -1,18 +1,13 @@
-.container 
-{
-	margin: 0 auto;
-	width: 1000px;
-}
-
 .menu-items {
 	margin: 0;
 	padding: 0;
-	list-style: none
+	list-style: none;
+	font-size: 1.4rem;
 }
 
 .menu-item{
 	display: inline-block;
-	margin: 0px 10px;
+	margin: 0px 1rem;
 }
 
 .menu-item__item{
@@ -29,3 +24,33 @@
 	color: #fff;
 }
 
+.menu-item:last-child{
+	display: none;
+}
+
+@media (max-width: 600px){
+	.menu-item{
+		display: none;
+	}
+
+	.menu-item:last-child{
+		display: block;
+		font-size: 1.8rem;
+	}
+	
+	.responsive .menu-item{
+		display: block;
+		text-align: left;
+		margin: 1rem 0;
+	}
+	
+	.responsive .menu-item:last-child{
+		position: absolute;
+		right: 40px;
+		top: 6px;
+	}
+
+	.responsive .main-nav{
+		display: block;
+	}
+}

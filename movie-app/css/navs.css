@@ -1,16 +1,11 @@
 .main-nav{
 	display: inline-block;
 	text-align: right;
-	width: calc(100% - 99px);
+	width: calc(100% - 10rem);
 }
 
 #sign-in{
-	font-size: larger;
-	background-color: #2E4C6D;
-	border: 2px solid;
-	border-radius: 8px;
-	border-color: #fff;
-	padding: 4px 16px;
+	font-size: 1.4rem;
 }
 
 #sign-in:hover{

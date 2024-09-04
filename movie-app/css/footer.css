@@ -1,55 +1,31 @@
-footer{
-    background-color: #2e4c6d;
-    height: 20vh;
-    width: 100%;
-    list-style: none;
+footer {
+    background-color: #2E4C6D;
+    padding: 30px;
 }
 
-footer ul{
+footer a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer ul {
     margin: 0;
+    padding: 0;
 }
 
-.footer-left a{
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: large;
-    padding: 5px;
-}
-
-.footer-left{
-    margin-top: 10vh;
-}
-
-.footer-rigth a{
-    float: right !important;
-    text-decoration: none;
-    color: #fff;
-}
-
-.footer-left li{
-    list-style: none;
-    float: left;
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .footer-rigth{
-    margin-top: 10vh;
-}
-
-.footer-rigth a{
-    font-size: 25px;
-    padding: 10px;
-    margin-left: 8px;
-}
-
-.footer-rigth li{
-    list-style: none;
-    float: right;
+    text-align: right;
 }
 
 .fa-brands{
-    padding: 10px;
+    padding: 1rem;
     border-radius: 50%;
 }
 

@@ -13,11 +13,18 @@
 * {
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
+
 body {
     margin: 0px;
+}
+
+main{
+    min-height: calc(100vh - 138px);
 }
 
 #how-it-works { 
@@ -26,7 +33,66 @@ body {
 
 .section-title{
     text-align: center!important;
-    margin: 40px;
+    margin: 4rem;
     color: #3e4555;
-    font-size: 30px!important;
+    font-size: 3rem!important;
+}
+
+.container 
+{
+	width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+    html{
+        font-size: 68%;
+    }
+
+    .container{
+        margin: 0 auto;
+        width: 540px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+    html{
+        font-size: 72%;
+    }
+
+    .container{
+        margin: 0 auto;
+        width: 720px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+    html{
+        font-size: 76%;
+    }
+
+    .container{
+        margin: 0 auto;
+        width: 960px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+    html{
+        font-size: 80%;
+    }
+
+    .container{
+        margin: 0 auto;
+        width: 1140px;
+    }
 }

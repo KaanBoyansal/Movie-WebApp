@@ -12,8 +12,8 @@
 </head>
 <body>
 	<header class="main-header">
-		<div class="container">
-			<a href="#" class="header-logo">Movie App</a>
+		<div id="main-nav" class="container">
+			<a href="#" id="header-logo" class="header-logo">Movie App</a>
 			<nav class="main-nav">
 				<ul class="menu-items">
 					<li class="menu-item">
@@ -23,7 +23,10 @@
 						<a href="#" class="menu-item__item">Diziler</a>
 					</li>
 					<li class="menu-item">
-						<a href="#" class="menu-item__item" id="sign-in">Login</a>
+						<a href="#" id="sign-in" class="menu-item__item btn btn-secondary">Login</a>
+					</li>
+					<li class="menu-item">
+						<a href="#" class="menu-item__item fa fa-bars" onclick="displayMenu()"></a>
 					</li>
 				</ul>
 			</nav>
@@ -41,7 +44,7 @@
 			<div class="container">
 				<div class="row">
 					<h2 class="section-title">How it works?</h2>
-					<p id="content-how-it">
+					<p id="content-how-it" class="info">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto commodi atque alias ullam vel repellendus tempora dicta porro impedit obcaecati.
 					</p>
 				</div>
@@ -51,7 +54,7 @@
 						<h3 style="color: #3e4555;">Register</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis reiciendis maiores beatae magni provident?</p>
 					</div>
-					<div class="col mid-info">
+					<div class="col info mid-info">
 						<i class="fa-solid fa-layer-group"></i>
 						<h3 style="color: #3e4555;">Choose a Plan</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis reiciendis maiores beatae magni provident?</p>
@@ -68,7 +71,7 @@
 			<div class="row">
 				<div class="col2 left">
 				</div><div class="col2 rigth">
-					<h3 style="color: #3e4555;">Watch All Movies</h3>
+					<h3>Watch All Movies</h3>
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, illo alias nihil recusandae perspiciatis voluptas expedita ullam animi quo reprehenderit!</p>
 					<button class="btn btn-secondary">View features</button>
 				</div>
@@ -77,8 +80,8 @@
 		<section id="plans">
 			<div class="row">
 			<h3 class="section-title">Become a Premium Member</h3>
-			<div id="container" class="clearfix">
-					<div id="first-plan" class="plan-list clearfix">
+			<div id="container" class="container clearfix">
+					<div id="first-plan" class="col plan-list clearfix">
 						<div class="inner-plan">
 						<h4>Free</h4>
 						<h4>0/month</h4>
@@ -92,7 +95,7 @@
 						<button class="btn btn-primary">Choose Plan</button>
 					</div>
 					</div>
-					<div class="plan-list plan--featured clearfix">
+					<div class="col plan-list plan--featured clearfix">
 						<div class="inner-plan recommended-plan">
 						<h4 id="plan-badge" >Recomended</h4>
 						<h4>Basic</h4>
@@ -107,7 +110,7 @@
 						<button class="btn btn-primary">Choose Plan</button>
 						</div>
 					</div>
-					<div class="plan-list clearfix">
+					<div class="col plan-list clearfix">
 						<div class="inner-plan">
 						<h4>Premium</h4>
 						<h4>$9.99/month</h4>
@@ -204,5 +207,11 @@
 	<section class="smooth-scroll">
 		<a href="#"><i class="fa-solid fa-circle-up"></i></a>
 	</section>
+	<script>
+		function displayMenu(){
+			var link = document.getElementById("main-nav");
+			link.classList.toggle("responsive");
+		}
+	</script>
 </body>
 </html>

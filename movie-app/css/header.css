@@ -1,15 +1,16 @@
 .main-header{
 	background-color: #FC997C;
-	padding: 8px 16px;
+	padding: .8rem 1.6rem;
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	font-family: "Roboto", sans-serif;
 }
 
 .header-logo{
 	color: #fff;
 	text-decoration: none;
-	font-size: 21px;
+	font-size: 2rem;
 	font-weight: bold;
 }
 		
