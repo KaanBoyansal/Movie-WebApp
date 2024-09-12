@@ -1,0 +1,45 @@
+footer {
+    background-color: #2E4C6D;
+    padding: 30px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.footer-rigth{
+    text-align: right;
+}
+
+.fa-brands{
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background-color: #125688;
+    color: #fff;
+}
+
+.fa-github{
+    background-color: #2B3137;
+    color: #fff;
+}
+
+.fa-linkedin{
+    background-color: #0a66c2;
+    color: #fff;
+}

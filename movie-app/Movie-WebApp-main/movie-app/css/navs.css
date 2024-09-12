@@ -1,0 +1,19 @@
+.main-nav{
+	display: inline-block;
+	text-align: right;
+	width: calc(100% - 10rem);
+}
+
+#sign-in{
+	font-size: 1.4rem;
+}
+
+#sign-in:hover{
+	background-color: #fff;
+	border-color: #2E4C6D;
+}
+
+#sign-in:active{
+	background-color: #2E4C6D;
+	border-color: #fff;
+}

@@ -1,0 +1,80 @@
+.row{
+	font-family: "Roboto", sans-serif;
+	margin-top: 6vh;
+}
+
+.info{
+	font-size: 1.5rem;
+}
+
+.info h3{
+	font-size: 2.2rem!important;
+}
+
+.mid-info{
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.row::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.row h2{
+	font-size: 2.7rem;
+}
+
+.col h3{
+	font-size: 1.8rem;
+}
+
+.col{
+	float: left;
+	width: 33.3%;
+}
+
+.col i{
+	font-size: 35px;
+	color: #FC997C;
+}
+
+.col2{
+	float: left;
+	width: 50%;
+}
+
+@media (max-width: 768px)
+{
+	.col, .col2{
+		width: 100%;
+	}
+}
+
+.left{
+	background:
+	linear-gradient(to bottom,rgba(220, 229, 239, 0.3), rgba(150, 177, 207, 0.3)), 
+	url(img/features.jpeg);
+	background-size: cover;
+	background-position: top center;
+	height: 35rem;
+}
+.rigth{
+	background-color: #d1d1d1d2;
+	padding: 3rem;
+	font-family: "Roboto", sans-serif;
+	height: 35rem;
+}
+.rigth h3{
+	font-weight: bold;
+	font-size: 3.2rem;
+}
+.rigth p{
+	font-size: 1.5rem;
+	/* font-weight: 500; */
+}
+
+.fa-solid{
+	font-size: 3rem!important;
+}
