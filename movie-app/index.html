@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/forms.css">
 </head>
 <body>
 	<header class="main-header">
@@ -23,7 +24,7 @@
 						<a href="#" class="menu-item__item">Diziler</a>
 					</li>
 					<li class="menu-item">
-						<a href="#" id="sign-in" class="menu-item__item btn btn-secondary">Login</a>
+						<a href="#register" id="sign-in" class="menu-item__item btn btn-secondary">Login</a>
 					</li>
 					<li class="menu-item">
 						<a href="#" class="menu-item__item fa fa-bars" onclick="displayMenu()"></a>
@@ -33,7 +34,7 @@
 		</div>
 	</header>
 
-	<main>
+	<main id="home">
 		<section id="showcase" class="showcase-class">
 			<div class="showcase__content">
 				<h2>Welcome</h2>
@@ -181,6 +182,37 @@
 			</div>
 		</section>
 	</main>
+	<main id="register" class="signup-page">
+        <h1 class="signup-title">Create Your Account</h1>
+		<div class="container">
+			<form action="" class="signup-form">
+				<label for="firstname">First name</label>
+				<input type="text" id="firstname">
+				
+				<label for="lastname">Last name</label>
+				<input type="text" id="lastname">
+				
+				<label for="mail">E-mail</label>
+				<input type="mail" id="mail">
+				
+				<label for="passw">Password</label>
+				<input type="password" id="passw">
+				
+				<label for="gender">Gender</label>
+				<select id="gender">
+					<option value="">Select</option>
+					<option value="">Male</option>
+					<option value="">Female</option>
+				</select>
+				
+				<input type="checkbox" id="agree-terms">
+				<label for="agree-terms">Agree to
+					<a href="#">Terms &amp; Conditions</a>
+				</label>
+				<button type="submit" class="btn btn-primary">Sign Up</button>
+			</form>
+		</div>
+    </main>
 	<footer>
 		<section id="footer">
 			<div class="container">
@@ -207,6 +239,7 @@
 	<section class="smooth-scroll">
 		<a href="#"><i class="fa-solid fa-circle-up"></i></a>
 	</section>
+	<script src="script.js"></script>
 	<script>
 		function displayMenu(){
 			var link = document.getElementById("main-nav");

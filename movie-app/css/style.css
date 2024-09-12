@@ -24,7 +24,12 @@ body {
 }
 
 main{
+	display: none;
     min-height: calc(100vh - 138px);
+}
+
+main.active{
+	display: block;
 }
 
 #how-it-works { 
